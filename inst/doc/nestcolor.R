@@ -1,4 +1,4 @@
-## ---- echo=FALSE, fig.height=0.375--------------------------------------------
+## ----echo=FALSE, fig.height=0.375---------------------------------------------
 library(grid)
 library(nestcolor)
 
@@ -16,13 +16,13 @@ plot_pal <- function(x) {
 
 plot_pal(color_palette(n = 20, palette = "nest"))
 
-## ---- echo=FALSE, fig.height=0.375--------------------------------------------
+## ----echo=FALSE, fig.height=0.375---------------------------------------------
 plot_pal(color_palette(n = 20, palette = "stream"))
 
-## ---- echo=FALSE, fig.height=0.375--------------------------------------------
+## ----echo=FALSE, fig.height=0.375---------------------------------------------
 plot_pal(color_palette(n = 20, palette = "viridis"))
 
-## ---- echo=FALSE, fig.height=0.375--------------------------------------------
+## ----echo=FALSE, fig.height=0.375---------------------------------------------
 plot_pal(color_palette(n = 20, palette = "accessible"))
 
 ## -----------------------------------------------------------------------------
